@@ -1,8 +1,8 @@
-#To-DO API
+# To-DO API
 
 A basic Express.js API for managing a to-do list, allowing users to create, retrieve, update, and delete tasks. This project demonstrates simple RESTful API operations with in-memory data storage.
 
-##Features
+## Features
 
 -> Create Task: Add a new task to the to-do list.
 -> Get All Tasks: Retrieve all tasks in the to-do list.
@@ -10,23 +10,24 @@ A basic Express.js API for managing a to-do list, allowing users to create, retr
 -> Update Task: Modify an existing task by its ID.
 -> Delete Task: Remove a task from the list by its ID.
 
-##Prerequisites
+## Prerequisites
 
 -> Node.js and npm installed on your local machine.
 
-##Clone the repository
+## Clone the repository
   git clone https://github.com/your-username/to-do-api.git
 cd to-do-api
 
-##Install dependencies
+## Install dependencies
   npm install
 
-##Run the server
+## Run the server
   node index.js
 
 The server will start on http://localhost:3000.
 
-#API Endpoints
+# API Endpoints
+
   ##Fetch All Tasks
     Endpoint: /tasks
     Method: GET
@@ -53,7 +54,7 @@ The server will start on http://localhost:3000.
     Description: Deletes the specified task.
     Response: 204 No Content (if successful)
 
-  ##Error Responses
+  # Error Responses
     404 Not Found: Returned if the specified task ID is not found.
 
 
